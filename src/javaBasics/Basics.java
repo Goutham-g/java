@@ -26,15 +26,8 @@ public class Basics {
             System.out.println("the input type mismatch"+e);
         }
 
-        System.out.println(-5+8*6);
 
 
-        System.out.println(n1+"+"+n2+"="+(n1+n2));
-        System.out.println(n1+"-"+n2+"="+(n1-n2));
-        System.out.println(n1+"*"+n2+"="+(n1*n2));
-        for(int i=1;i<=10;i++){
-            System.out.println(n1+"*"+i+"="+(n1*i));
-        }
 
 //        System.out.println("   J    a   ");
 //        System.out.println("   J   a a   ");
@@ -51,7 +44,7 @@ public class Basics {
         System.out.println("a="+a+"and"+"b="+b);
 
         System.out.println("enter a binary no");
-       Scanner scan =new Scanner(System.in);
+       Scanner scan1 =new Scanner(System.in);
        int num1=scan.nextInt();
        int sum=0;
        while(num1!=0){
@@ -64,8 +57,8 @@ public class Basics {
         //reverse the digit of an integer
 
            System.out.println("enter a  no");
-          Scanner scan =new Scanner(System.in);
-          int num1=scan.nextInt();
+          Scanner scan2 =new Scanner(System.in);
+          int numm1=scan.nextInt();
           int i=0;
           int var=0;
          while(num1!=0) {
@@ -80,7 +73,7 @@ public class Basics {
 //        Count the no of digit in an integer
 
         System.out.println("enter a digit");
-        Scanner scan =new Scanner(System.in);
+        Scanner scan3 =new Scanner(System.in);
         int num=scan.nextInt();
         int count=0;
           while(num!=0){
@@ -131,11 +124,11 @@ public class Basics {
 
         //product of the digits of an integer
 
-        int num1=12345;
+        int num2=12345;
         int pro=1;
 
-        for(int temp=num1;temp>0;temp=temp/10){
-                int n2=temp%10;
+        for(int temp1=num1;temp1>0;temp1=temp1/10){
+                int n2=temp1%10;
                 pro=pro*n2;
 
 
