@@ -195,6 +195,24 @@ public class StrArr {
         System.out.println("filled array:"+Arrays.toString(fill));
 
 
+
+        int[] num1={2,0,4,6,0,3,0};
+        int[] newArr1=new int[num1.length];
+        int c=0;
+
+        for(int i=0;i<num1.length;i++){
+            if(num1[i]!=0){
+
+                newArr1[a]=num1[i];
+                a++;
+
+            }
+            System.out.println(Arrays.toString(newArr));
+
+
+
+        }
+
     }
 
 

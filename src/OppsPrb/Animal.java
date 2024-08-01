@@ -4,8 +4,13 @@ public class Animal {
     Animal(){
         System.out.println("animal is created");
     }
+    int a;
+    int b;
 
-   public void makeSound(){
-       System.out.println("Animal make sound");
+    void display(){
+        System.out.println("a="+a +"b="+b);
     }
+
+
+
 }
