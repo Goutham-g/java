@@ -2,7 +2,7 @@ package OppsPrb;
 
 public class Inher2 extends Inher1 {
  int a=100;
-    Inher2(){
+   public Inher2(){
         System.out.println(
                 "Constructor in inhr2"
         );
@@ -19,6 +19,9 @@ public class Inher2 extends Inher1 {
     }
     void superDisplay(){
         super.Display();
+    }
+    void overload(double a){
+        System.out.println("float overload"+a);
     }
 
 

@@ -21,9 +21,7 @@ int a=20;
     void overload(int a){
         System.out.println("overload single argument:"+a);
     }
-    void overload(double a){
-        System.out.println("float overload"+a);
-    }
+
     String overload(String a){
         System.out.println("returned value"+a);
         return a;

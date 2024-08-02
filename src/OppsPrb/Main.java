@@ -1,5 +1,7 @@
 package OppsPrb;
 
+import OppsPrb1.com.Pack;
+
 import java.util.Arrays;
 
 public class Main {
@@ -84,7 +86,9 @@ public class Main {
         Inher1 ovr=new Inher1();
         ovr.overload("String");
         ovr.overload(4);
-        ovr.overload( 10.5);
+//        ovr.overload( 10.5);
+        in.overload();
+
 
 
 
@@ -103,6 +107,9 @@ public class Main {
         Vehicle ve=new Car();
         System.out.println(ve.brand);
         ve.makeSound();
+
+        Pack pk=new Pack();
+        pk.view();
 
 
 
